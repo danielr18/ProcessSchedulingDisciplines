@@ -11,6 +11,11 @@ The process scheduler is a part of the operating system that decides which proce
 
 - all: Run each of the previous algorithms
 
+##Installation
+```
+$ pip install -r requirements.txt
+```
+
 ##Usage
 `python3 main.py`
 
