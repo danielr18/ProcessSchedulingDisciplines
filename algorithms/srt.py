@@ -25,6 +25,8 @@ def runSRTScheduler(processes):
                 process.T = process.tf - process.ti
                 process.E = process.T - process.t
                 process.I = round(process.t / process.T, 4)
+                
+    processes.sort(key = lambda process: process.ti)
 
 
 class TestSRTAlgorithm(unittest.TestCase):
