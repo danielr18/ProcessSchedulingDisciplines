@@ -2,30 +2,31 @@
 The process scheduler is a part of the operating system that decides which process runs at a certain point in time.
 
 ##Algorithms:
-fifo : First In First Out
-lifo : Last In First Out
-sjn : Shortest Job Next
-ljn : Longest Job Next
-rrqX : Round Robin (where x is the quantum)
-srt: Shortest Remaining Time
+- fifo : First In First Out
+- lifo : Last In First Out
+- sjn : Shortest Job Next
+- ljn : Longest Job Next
+- rrqX : Round Robin (where x is the quantum)
+- srt: Shortest Remaining Time
 
-all: Run each of the previous algorithms
+- all: Run each of the previous algorithms
 
 ##Usage
 `python3 main.py`
 
 Expected input:
---algorithm
---numberOfProcesses
---nameOfProcesses
---initialTimeOfProcesses
---executionTimeOfProcesses
+- --algorithm
+- --numberOfProcesses
+- --nameOfProcesses
+- --initialTimeOfProcesses
+- --executionTimeOfProcesses
 
 ##Examples
 
 Round Robin - q3
 ```
-python3 main.py
+$ python3 main.py
+
 rrq3
 3
 A B C
@@ -49,7 +50,8 @@ Round Robin - q3
 SRT
 
 ```
-python3 main.py
+$ python3 main.py
+
 srt
 5
 A B C D E
